@@ -1,0 +1,17 @@
+# 
+
+## Installation
+
+```bash
+cd mcp-near-ticketing
+npm install
+npm run build
+```
+
+## Usage
+
+See main repository README for details.
+
+## License
+
+MIT
