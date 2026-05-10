@@ -1,17 +1,24 @@
-# 
+# Telegram NEAR Gas Tracker Bot
 
-## Installation
+Real-time NEAR gas price monitoring via Telegram.
 
+## Features
+- Real-time gas price tracking
+- Configurable alert thresholds
+- 24h average calculation
+- Trend indicators (📈📉→)
+
+## Setup
 ```bash
-cd telegram-gas-tracker
-npm install
-npm run build
+npm install node-telegram-bot-api
+TELEGRAM_BOT_TOKEN=xxx node bot.js
 ```
 
-## Usage
-
-See main repository README for details.
+## Commands
+- `/start` — Start monitoring
+- `/gas` — Current gas price
+- `/status` — Bot status
+- `/stop` — Stop alerts
 
 ## License
-
 MIT

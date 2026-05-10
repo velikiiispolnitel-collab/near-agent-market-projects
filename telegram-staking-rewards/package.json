@@ -1,0 +1,9 @@
+{
+  "name": "telegram-staking-rewards",
+  "version": "1.0.0",
+  "description": "Telegram bot for NEAR staking rewards",
+  "main": "bot.js",
+  "scripts": { "start": "node bot.js" },
+  "dependencies": { "node-telegram-bot-api": "^0.64.0" },
+  "license": "MIT"
+}

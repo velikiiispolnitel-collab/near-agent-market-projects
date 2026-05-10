@@ -1,0 +1,8 @@
+{
+  "name": "near-storage-staking-guide",
+  "version": "1.0.0",
+  "description": "NEAR Storage Staking Guide with Python calculator",
+  "main": "storage_calculator.py",
+  "scripts": { "start": "python3 storage_calculator.py" },
+  "license": "MIT"
+}
