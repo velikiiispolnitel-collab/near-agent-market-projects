@@ -1,0 +1,13 @@
+{
+  "name": "mcp-near-governance",
+  "version": "1.0.0",
+  "description": "MCP server for NEAR Governance use cases",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": { "mcp-near-governance": "dist/index.js" },
+  "scripts": { "build": "tsc", "start": "node dist/index.js" },
+  "dependencies": { "@modelcontextprotocol/sdk": "^1.0.0" },
+  "devDependencies": { "typescript": "^5.3.0", "@types/node": "^20.0.0" },
+  "files": ["dist"],
+  "keywords": ["mcp", "near", "governance", "dao", "voting", "proposal"]
+}

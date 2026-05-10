@@ -1,0 +1,43 @@
+{
+  "name": "near-transaction-viewer",
+  "displayName": "NEAR Transaction Viewer",
+  "description": "View NEAR transaction details inline in VS Code",
+  "version": "1.0.0",
+  "engines": { "vscode": "^1.80.0" },
+  "categories": ["Other"],
+  "activationEvents": ["onStartupFinished"],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "nearTxViewer.openInExplorer",
+        "title": "Open NEAR Transaction in Explorer"
+      }
+    ],
+    "configuration": {
+      "title": "NEAR Transaction Viewer",
+      "properties": {
+        "nearTxViewer.network": {
+          "type": "string",
+          "default": "mainnet",
+          "enum": ["mainnet", "testnet"],
+          "description": "NEAR network to use"
+        },
+        "nearTxViewer.explorerUrl": {
+          "type": "string",
+          "default": "https://nearblocks.io/txns/",
+          "description": "Block explorer URL"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.80.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.3.0"
+  }
+}

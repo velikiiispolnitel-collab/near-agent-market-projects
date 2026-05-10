@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+src/langchain_near_read_key/__init__.py
+src/langchain_near_read_key/tool.py
+src/langchain_near_read_key.egg-info/PKG-INFO
+src/langchain_near_read_key.egg-info/SOURCES.txt
+src/langchain_near_read_key.egg-info/dependency_links.txt
+src/langchain_near_read_key.egg-info/requires.txt
+src/langchain_near_read_key.egg-info/top_level.txt
+tests/test_tool.py

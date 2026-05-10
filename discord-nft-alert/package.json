@@ -1,0 +1,8 @@
+{
+  "name": "discord-near-nft-alert",
+  "version": "1.0.0",
+  "description": "Discord bot for NEAR NFT Drop alerts",
+  "main": "bot.js",
+  "scripts": { "start": "node bot.js" },
+  "dependencies": { "discord.js": "^14.14.0" }
+}

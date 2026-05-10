@@ -1,0 +1,26 @@
+{
+  "name": "near-tx-decoder",
+  "version": "1.0.0",
+  "description": "Decode NEAR transactions into human-readable format",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "near",
+    "transaction",
+    "decoder",
+    "blockchain"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "jest": "^30.4.2",
+    "ts-jest": "^29.4.9",
+    "typescript": "^5.3.0"
+  },
+  "files": [
+    "dist"
+  ]
+}
